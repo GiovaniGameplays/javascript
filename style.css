@@ -1,10 +1,18 @@
 :root{
     --cor-de-fundo:#1E1E1E;
     --verde: #6fff57;
-    --botao-inativado:#3a3756;
+    --botao-anativado:#3a3756;
     --botao-inativado:rgba(58,55,94,0.5);
     --texto-de-fundo:rgba(58,55,94,0.3);
 
      }
-     h1{font-family: "Bebas Neue", sans-serif;
+     body{
+        background-color: var(--cor-de-fundo);
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+     }
+     
+    .botoes{
+        background-color: var(--botao-inativado);
+        color: white;
     }
